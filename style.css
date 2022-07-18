@@ -248,26 +248,13 @@ p{
         padding: 15% 80%;
     }
 
-    .f-menu{
-        position: relative;
-        left: -80%;
-        top: 100%;
-        box-shadow: 0 0 0;
-        background-color: transparent;
-        margin: 80% 0 0% 15%;
-    }
-
-    .c-menu{
+    .f-menu, .c-menu{
         position: relative;
         left: -80%;
         top: 50%;
-        background-color: transparent;
         box-shadow: 0 0 0;
-        margin: 80% 0 0% 5%;
-    }
-
-    .features img, .company img{
-        height: 30%;
+        background-color: transparent;
+        margin: 80% 0 0% 15%;
     }
 
     .black{
@@ -280,6 +267,4 @@ p{
         background-color: black;
         opacity: 0.5;
     }
-
-
 }

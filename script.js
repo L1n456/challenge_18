@@ -14,7 +14,7 @@ let count_1 = 0;
 features.addEventListener('click', function onClick(e) {
     count_1 ++;
     if (count_1 %2 == 0) {
-        if(window.innerWidth < 375){
+        if(window.innerWidth <= 375){
             features.style.marginTop= "0%";
             f_arrow.style.height = "30%";
         }
@@ -28,7 +28,7 @@ features.addEventListener('click', function onClick(e) {
         }
         features.style.color = "hsl(0, 0%, 8%)";
         f_menu.style.display = "block";
-        f_arrow.src = "images/icon-arrow-up.svg"; 
+        f_arrow.src = "images/icon-arrow-up.svg";
     } 
 });
 
